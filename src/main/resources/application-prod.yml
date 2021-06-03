@@ -1,1 +1,10 @@
 
+spring:
+    application:
+        name: eureka-discovery-service
+eureka:
+    client:
+        registerWithEureka: false
+        fetchRegistry: false
+        service-url:
+            defaultZone: https://pfm-service-discovery.herokuapp.com/eureka
